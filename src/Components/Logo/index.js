@@ -1,6 +1,16 @@
 import React from "react";
-import HeaderLogo from "../../Images/slider.PNG";
+import * as S from "./style";
+import Logoicon from "./Logoicon";
 
 export default function Logo() {
-  return <img src={HeaderLogo} alt="HeaderLogo" />;
+  return (
+    <S.LogoWrapper>
+      <Logoicon />
+      <div>
+        <span>
+          <a>Skooled</a>
+        </span>
+      </div>
+    </S.LogoWrapper>
+  );
 }

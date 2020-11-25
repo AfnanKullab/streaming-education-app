@@ -6,14 +6,14 @@ import Logo from "../Logo";
 
 export default function Header() {
   return (
-    // <S.Nav>aaa</S.Nav>;
     <S.Wrapper>
       <NavBar />
       <Logo />
-      <div>
+      <I.IconWrapper>
         <I.FaceBook />
         <I.Twitter />
-      </div>
+        <I.Youtube />
+      </I.IconWrapper>
     </S.Wrapper>
   );
 }
