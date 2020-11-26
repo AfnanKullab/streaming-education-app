@@ -7,7 +7,6 @@ import { ImYoutube } from "react-icons/im";
 export const IconWrapper = styled.div`
   display: flex;
 `;
-
 export const FaceBook = () => {
   return (
     <div>
