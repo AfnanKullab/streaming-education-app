@@ -6,11 +6,8 @@ export default function Logo() {
   return (
     <S.LogoWrapper>
       <Logoicon />
-      <div>
-        <span>
-          <a>Skooled</a>
-        </span>
-      </div>
+
+      <S.SpanLogo>Skooled</S.SpanLogo>
     </S.LogoWrapper>
   );
 }

@@ -1,14 +1,15 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
+  background-color: #fcf8f5;
+  padding: 25px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
 `;
 // Navbar styled comp.
 export const NavbarWrapper = styled.div`
-  width: 459px;
-  height: 50px;
-  overflow-x: visible;
+  margin: auto;
 `;
 export const Nav = styled.nav`
   position: absolute;
@@ -18,24 +19,25 @@ export const Nav = styled.nav`
   left: 0;
 `;
 export const ListItems = styled.ul`
-  &: first-child {
-    color: #9e5f1b;
-  }
   list-style: none;
   display: flex;
+  &:first-child {
+    color: #9e5f1b;
+  }
+`;
+
+export const Items = styled.li`
+  width: 76px;
+  height: 8.8vh;
+  position: relative;
+  box-sizing: border-box;
+  overflow: visible;
+  color: #130d4c;
   &:hover {
     color: #9e5f1b;
   }
 `;
-export const Items = styled.li`
-  width: 76px;
-  height: 50px;
-  position: relative;
-  box-sizing: border-box;
-  overflow: visible;
-`;
 export const Link = styled.a`
-  color: #130d4c;
   transition: color 0.4s ease 0s;
   curser: pointer;
 `;
