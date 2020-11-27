@@ -8,6 +8,7 @@ export const H2 = styled.h2`
   font-size: 60px; // <= rem
   font-weight: bold;
   font-stretch: normal;
+  mar
 `;
 
 export const H3 = styled.h3`
@@ -24,4 +25,6 @@ export const H6 = styled.h6``;
 export const P = styled.p`
   line-height: 2;
   text-align: center;
+  border: 1px solid #fff;
+  width: 600px;
 `;

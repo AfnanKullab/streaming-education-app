@@ -1,16 +1,16 @@
 import React from "react";
-import Header from "../../Components/Header";
-import LiveClasses from "../../Components/LiveClasses";
+// import Header from "../../Components/Header";
+// import LiveClasses from "../../Components/LiveClasses";
 import TopSlider from "../../Components/TopSlider";
-import WeeklySchedule from "../../Components/WeeklySchedule";
+// import WeeklySchedule from "../../Components/WeeklySchedule";
 
 export default function Home() {
   return (
     <div className="home">
-      <Header />
-      <LiveClasses />
+      {/* <Header />
+      <LiveClasses /> */}
       <TopSlider />
-      <WeeklySchedule />
+      {/* <WeeklySchedule title="Weekly Weekly" /> */}
     </div>
   );
 }
