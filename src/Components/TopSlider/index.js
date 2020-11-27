@@ -3,11 +3,12 @@ import Slider from "react-slick";
 import "~slick-carousel/slick/slick.css";
 import "~slick-carousel/slick/slick-theme.css";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
-import image1 from "./Images/image1.webp";
+import Image1 from "./Images/image1.webp";
 import Image2 from "./Images/image2.webp";
-import image3 from "./Images/Image3.webp";
-import image4 from "./Images/image4.webp";
+import Image3 from "./Images/Image3.webp";
+import Image4 from "./Images/image4.webp";
 
 export const BackgroundDiv = styled.div`
   background-image: url(${(props) => props.url});
@@ -16,9 +17,9 @@ export default function TopSlider() {
   const settings = {
     customPaging: function (i) {
       return (
-        <a href="#">
-          <BackgroundDiv url={Image1} />
-        </a>
+        <Link to="/">
+          <img src={Image1} alt="image1" />
+        </Link>
       );
     },
     dots: true,
@@ -33,16 +34,16 @@ export default function TopSlider() {
       <h2>Custom Paging</h2>
       <Slider {...settings}>
         <div>
-          <BackgroundDiv url={Image1} />
+          <img src={Image1} alt="image1" />
         </div>
         <div>
-          <BackgroundDiv url={Image2} />
+          <img src={Image2} alt="image2" />
         </div>
         <div>
-          <BackgroundDiv url={Image3} />
+          <img src={Image3} alt="image3" />
         </div>
         <div>
-          <BackgroundDiv url={Image4} />
+          <img src={Image4} alt="image4" />
         </div>
       </Slider>
     </div>
