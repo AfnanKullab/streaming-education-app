@@ -8,9 +8,9 @@ export default function CardInfo(props) {
     <S.CardInfo>
       <T.H5>{day}</T.H5>
       <T.H4>I'm a Class Title</T.H4>
-      <T.P>I'm an item. Click here to edit me</T.P>
+      <T.CardP>I'm an item. Click here to edit me</T.CardP>
       <T.H6>Teacher's Name</T.H6>
-      <T.P>9 am - 45 min</T.P>
+      <T.CardP>9 am - 45 min</T.CardP>
     </S.CardInfo>
   );
 }

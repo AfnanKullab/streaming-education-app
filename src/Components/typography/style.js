@@ -5,13 +5,13 @@ export const H1 = styled.h1``;
 export const H2 = styled.h2`
   text-align: center;
   line-height: normal;
-  font-size: 3.75rem; // 60px
+  font-size: 3.125rem; // 50px
   font-weight: bold;
   font-stretch: normal;
 `;
 
 export const H3 = styled.h3`
-  font-size: 2.125rem; //34 px
+  font-size: 2.187rem; //35 px
   font-family: normal normal normal 36px/1.4em playfairdisplay-bold,
     "playfair display", serif;
 `;
@@ -27,13 +27,25 @@ export const H5 = styled.h5`
 
 export const H6 = styled.h6`
   font: normal normal normal 18px/1.4em playfairdisplay-bold, "playfair display",
-    serif; // 18px // teacher's name
+    serif;
+  // 18px // teacher's name
+  font-size: 1.125 rem;
+  font-weight: bold;
 `;
 
 export const P = styled.p`
+  font-family: avenir-lt-w01_35-light1475496, sans-serif;
+  line-height: 1.9em;
+  text-align: center;
+  border: 1px solid #fff;
+  width: 600px;
+  letter-spacing: 0.02em;
+`;
+
+export const CardP = styled.p`
   line-height: 1.9em;
   text-align: center;
   letter-spacing: 0.02em;
   font-family: avenir-lt-w01_35-light1475496, sans-serif;
-  font-size: 0.625rem; //10x
+  font-size: 1rem; //10x
 `;

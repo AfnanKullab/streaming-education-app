@@ -30,3 +30,7 @@ export const P = (props) => {
   const { children } = props;
   return <S.P>{children}</S.P>;
 };
+export const CardP = (props) => {
+  const { children } = props;
+  return <S.CardP>{children}</S.CardP>;
+};
