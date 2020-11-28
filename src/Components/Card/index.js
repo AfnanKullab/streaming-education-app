@@ -2,7 +2,9 @@ import React from "react";
 import * as S from "./style";
 
 export default function Card() {
-  return <Wrapper>
-      <cardInfo/>
-  </Wrapper>;
+  return (
+    <S.Wrapper>
+      <S.CardInfo />
+    </S.Wrapper>
+  );
 }
