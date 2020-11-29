@@ -8,10 +8,15 @@ export const H2 = styled.h2`
   font-size: 3.125rem; // 50px
   font-weight: bold;
   font-stretch: normal;
+  mar
 `;
 
 export const H3 = styled.h3`
+<<<<<<< HEAD
   font-size: 2.187rem; //35 px
+=======
+  font-size: 2.187rem; /*35 px */
+>>>>>>> 6342b2a6b3636282e476a38cb4a0a3a5437fb508
   font-family: normal normal normal 36px/1.4em playfairdisplay-bold,
     "playfair display", serif;
 `;
@@ -47,5 +52,5 @@ export const CardP = styled.p`
   text-align: center;
   letter-spacing: 0.02em;
   font-family: avenir-lt-w01_35-light1475496, sans-serif;
-  font-size: 1rem; //10x
+  font-size: 1rem; //16x
 `;
